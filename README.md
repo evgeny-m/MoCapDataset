@@ -93,10 +93,9 @@ Note: This is a work in progress. The contents of the dataset are subject to cha
 
 ## Acknowledgements
 
-The study was supported by RSF project no. 25-21-00413 (https://rscf.ru/project/25-21-00413/).
+The study was supported by RSF project no. <a href=https://rscf.ru/project/25-21-00413/>25-21-00413</a>.
 
 ## Citation
 
 If you found this dataset useful, please cite the following paper:
-<\br>
- - E. Myasnikov, Human Action Recognition from Motion Capture Data based on Curve Matching, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, vol. XLVIII-2/W9-2025, pp. 201-206, 2025. DOI: 10.5194/isprs-archives-XLVIII-2-W9-2025-201-2025
+ - E. Myasnikov, <a href=https://doi.org/10.5194/isprs-archives-XLVIII-2-W9-2025-201-2025>Human Action Recognition from Motion Capture Data based on Curve Matching</a>, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, vol. XLVIII-2/W9-2025, pp. 201-206, 2025.
