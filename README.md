@@ -59,19 +59,22 @@ This section contains actions performed with the following tools:
 16. Stir with a spoon
 
 ## Methodology
-Before recording, the actors were instructed to perform the actions consistently. 
-Before recording, the actors had the opportunity to repeat the actions without the suit one or more times. Before performing the actions, 
+Four actors participated in the dataset recording. 
+To form each part of the dataset, each actor sequentially performed movements from different classes. 
+Before recording, the actors were instructed on which actions to perform and how.
+The actors had the opportunity to repeat the actions one or more times before recording. Before participating, 
 the actors' experience with the tools varied, sometimes even to the point of complete inexperience.
 </br></br>
 The first and second parts of the set were recorded on the same day. 
-The third part was recorded on a different day and time. We tried to include consistently performed actions from all classes within a single part in a single recording. 
-We recorded each part for each actor five times. Thus, each action class was represented by 20 instances. After each recording, we recalibrated the capture system.
+The third part was recorded on a different day and time. 
+For each part, we tried to include in a single recording one instance of each class of actions performed by a single person.
+After each recording, we recalibrated the capture system.
+We recorded each part for each actor five times. Thus, each action class is represented by 20 instances. 
 </br></br>
 The recorded sequences were carefully segmented manually to separate the actions of different classes over time. 
 The sequences were exported from the motion capture software as processed .bvh files. 
 Each movement instance was then converted into a separate sequence of frames containing 3D coordinated and saved as a .pkl file. 
-Each .pkl file therefore contains contains one example of some  motion class performed by one of the actors as a sequence of frames, 
-where each frame represents a sequence of 3D coordinates of individual body parts.
+Each .pkl file therefore contains contains one example of some  motion class performed by one of the actors as a sequence of frames, where each frame represents a sequence of 3D coordinates of individual body parts.
 
 ## File Naming
 
