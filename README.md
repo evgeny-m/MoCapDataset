@@ -1,8 +1,8 @@
 # MoCapDataset
 Motion capture dataset obtained using the Perception Neuron system
-
+</br></br>
 This repository contains a motion capture dataset obtained using a perception neuron system for classifying human actions.
-
+</br></br>
 The dataset is divided into several parts: gestures, controls, and tool use.
 
 ## Part 1 - Gestures
@@ -62,11 +62,11 @@ This section contains actions performed with the following tools:
 Before recording, the actors were instructed to perform the actions consistently. 
 Before recording, the actors had the opportunity to repeat the actions without the suit one or more times. Before performing the actions, 
 the actors' experience with the tools varied, sometimes even to the point of complete inexperience.
-
+</br></br>
 The first and second parts of the set were recorded on the same day. 
 The third part was recorded on a different day and time. We tried to include consistently performed actions from all classes within a single part in a single recording. 
 We recorded each part for each actor five times. Thus, each action class was represented by 20 instances. After each recording, we recalibrated the capture system.
-
+</br></br>
 The recorded sequences were carefully segmented manually to separate the actions of different classes over time. 
 The sequences were exported from the motion capture software as processed .bvh files. 
 Each movement instance was then converted into a separate sequence of frames containing 3D coordinated and saved as a .pkl file. 
@@ -77,10 +77,15 @@ where each frame represents a sequence of 3D coordinates of individual body part
 
 Each file in the data set has a name in the following format: <br>
 <i>\<part\>AA_II_CC.pkl</i><br>
-where <i>\<part\></i> is the name of the data set part ("gest" - gestures, "ctrl" - control, "inst" - tool handling),<br>
+where <i>\<part\></i> is the name of the data set part (<i>"gest"</i> - gestures, <i>"ctrl"</i> - control, <i>"inst"</i> - tool handling),<br>
 <i>AA</i> is the actor number,<br>
 <i>AI</i> is the instance number,<br>
 <i>CC</i> is the movement class number.
-
+</br></br>
 The dataset should contain: 4 x 5 x 10 = 200 files in the first part, 4 x 5 x 18 = 360 files in the second part, and 4 x 5 x 16 = 320 files in the third part. 
 Unfortunately, some isolated sequences were excluded from the dataset. Therefore, the dataset in the current version contains 876 files.
+</br></br>
+Parts 1 and 2 share a common sequence of class numbers. Part 1 classes are numbered 1 through 10, and Part 2 classes are numbered 11 through 28. </br>
+Part 3 classes can be combined into larger classes for classification: using a screwdriver (original classes 2 and 3), using a ring spanner (box wrench) (original classes 4 and 5), using a hex key (original classes 6 and 7), using a clamp (original classes 8 and 9), and cutting with a hacksaw (original classes 11 and 12).
+</br></br>
+Note: This is a work in progress.
