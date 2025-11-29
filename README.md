@@ -1,7 +1,5 @@
 # MoCapDataset
-Motion capture dataset obtained using the Perception Neuron system
-</br></br>
-This repository contains a motion capture dataset obtained using a perception neuron system for classifying human actions.
+This repository contains a motion capture dataset for human action classification, obtained using the <a href="https://support.neuronmocap.com/hc/en-us/articles/360044818093-Perception-Neuron-32">Perception Neuron</a> motion capture system.
 </br></br>
 The dataset is divided into several parts: gestures, controls, and tool use.
 
@@ -91,4 +89,14 @@ Unfortunately, some isolated sequences were excluded from the dataset. Therefore
 Parts 1 and 2 share a common sequence of class numbers. Part 1 classes are numbered 1 through 10, and Part 2 classes are numbered 11 through 28. </br>
 Part 3 classes can be combined into larger classes for classification: using a screwdriver (original classes 2 and 3), using a ring spanner (box wrench) (original classes 4 and 5), using a hex key (original classes 6 and 7), using a clamp (original classes 8 and 9), and cutting with a hacksaw (original classes 11 and 12).
 </br></br>
-Note: This is a work in progress.
+Note: This is a work in progress. The contents of the dataset are subject to change.
+
+## Acknowledgements
+
+The study was supported by RSF project no. 25-21-00413 (https://rscf.ru/project/25-21-00413/).
+
+## Citation
+
+If you found this dataset useful, please cite the following paper:
+<\br>
+ - E. Myasnikov, Human Action Recognition from Motion Capture Data based on Curve Matching, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, vol. XLVIII-2/W9-2025, pp. 201-206, 2025. DOI: 10.5194/isprs-archives-XLVIII-2-W9-2025-201-2025
