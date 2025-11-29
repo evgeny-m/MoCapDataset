@@ -1,5 +1,5 @@
 # MoCapDataset
-This repository contains a motion capture dataset for human action classification, obtained using the <a href="https://support.neuronmocap.com/hc/en-us/articles/360044818093-Perception-Neuron-32">Perception Neuron</a> motion capture system.
+This repository contains a motion capture dataset for human action classification, obtained using the <a href="https://support.neuronmocap.com/hc/en-us/articles/360044818093-Perception-Neuron-32">Perception Neuron&reg;</a> motion capture system.
 </br></br>
 The dataset is divided into several parts: gestures, controls, and tool use.
 
