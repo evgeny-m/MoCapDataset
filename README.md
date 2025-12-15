@@ -104,7 +104,7 @@ where <i>\<part\></i> is the name of the data set part (<i>"gest"</i> - gestures
 <i>AI</i> is the instance number,<br>
 <i>CC</i> is the movement class number.
 </br></br>
-The dataset should contain: 4 x 5 x 10 = 200 files in the first part, 4 x 5 x 18 = 360 files in the second part, and 4 x 5 x 16 = 320 files in the third part, 4 x 5 x 18 = 380 files in the fourth part. 
+The dataset should contain: 4 x 5 x 10 = 200 files in the first part, 4 x 5 x 18 = 360 files in the second part, and 4 x 5 x 16 = 320 files in the third part, 4 x 5 x 19 = 380 files in the fourth part. 
 Unfortunately, some isolated sequences were excluded from the dataset. Therefore, the dataset in the current version contains about 1200 files.
 </br></br>
 Parts 1 and 2 share a common sequence of class numbers. Part 1 classes are numbered 1 through 10, and Part 2 classes are numbered 11 through 28. </br>
