@@ -1,7 +1,7 @@
 # MoCapDataset
 This repository contains a motion capture dataset for human action classification, obtained using the <a href="https://support.neuronmocap.com/hc/en-us/articles/360044818093-Perception-Neuron-32">Perception Neuron&reg;</a> motion capture system.
 </br></br>
-The dataset is divided into several parts: gestures, controls, and tool use.
+The dataset is divided into several parts: gestures, controls, tool use, and everyday activities.
 
 ## Part 1 - Gestures
 This part contains the following gestures:
@@ -56,6 +56,27 @@ This section contains actions performed with the following tools:
 15. Cut with scissors
 16. Stir with a spoon
 
+## Part 3 - everyday activities
+1. Walk
+2. Sit at the table
+3. Get up from the table
+4. Sit on the sofa
+5. Get up from the sofa
+6. Lie down on the bed
+7. Get out of bed
+8. Work on the computer
+9. Write at the table
+10. Carry a box
+11. Put the box on the floor
+12. Pick up a box from the floor
+13. Move from the shelf to the table
+14. Move from the table to the shelf
+15. Dust the shelf
+16. Wipe the table
+17. Mop the floor
+18. Vacuum the sofa
+19. Iron
+
 ## Methodology
 Four actors participated in the dataset recording. 
 To form each part of the dataset, each actor sequentially performed movements from different classes. 
@@ -83,8 +104,8 @@ where <i>\<part\></i> is the name of the data set part (<i>"gest"</i> - gestures
 <i>AI</i> is the instance number,<br>
 <i>CC</i> is the movement class number.
 </br></br>
-The dataset should contain: 4 x 5 x 10 = 200 files in the first part, 4 x 5 x 18 = 360 files in the second part, and 4 x 5 x 16 = 320 files in the third part. 
-Unfortunately, some isolated sequences were excluded from the dataset. Therefore, the dataset in the current version contains 876 files.
+The dataset should contain: 4 x 5 x 10 = 200 files in the first part, 4 x 5 x 18 = 360 files in the second part, and 4 x 5 x 16 = 320 files in the third part, 4 x 5 x 18 = 380 files in the fourth part. 
+Unfortunately, some isolated sequences were excluded from the dataset. Therefore, the dataset in the current version contains about 1200 files.
 </br></br>
 Parts 1 and 2 share a common sequence of class numbers. Part 1 classes are numbered 1 through 10, and Part 2 classes are numbered 11 through 28. </br>
 Part 3 classes can be combined into larger classes for classification: using a screwdriver (original classes 2 and 3), using a ring spanner (box wrench) (original classes 4 and 5), using a hex key (original classes 6 and 7), using a clamp (original classes 8 and 9), and cutting with a hacksaw (original classes 11 and 12).
