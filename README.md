@@ -56,7 +56,7 @@ This section contains actions performed with the following tools:
 15. Cut with scissors
 16. Stir with a spoon
 
-## Part 3 - everyday activities
+## Part 3 - Everyday Activities
 1. Walk
 2. Sit at the table
 3. Get up from the table
@@ -99,7 +99,7 @@ Each .pkl file therefore contains contains one example of some  motion class per
 
 Each file in the data set has a name in the following format: <br>
 <i>\<part\>AA_II_CC.pkl</i><br>
-where <i>\<part\></i> is the name of the data set part (<i>"gest"</i> - gestures, <i>"ctrl"</i> - control, <i>"inst"</i> - tool handling),<br>
+where <i>\<part\></i> is the name of the data set part (<i>"gest"</i> - gestures, <i>"ctrl"</i> - control, <i>"inst"</i> - tool handling, <i>"evrd"</i> - everyday activities),<br>
 <i>AA</i> is the actor number,<br>
 <i>AI</i> is the instance number,<br>
 <i>CC</i> is the movement class number.
