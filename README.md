@@ -56,7 +56,7 @@ This section contains actions performed with the following tools:
 15. Cut with scissors
 16. Stir with a spoon
 
-## Part 3 - Everyday Activities
+## Part 4 - Everyday Activities
 1. Walk
 2. Sit at the table
 3. Get up from the table
