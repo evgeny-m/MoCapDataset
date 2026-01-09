@@ -111,6 +111,8 @@ Parts 1 and 2 share a common sequence of class numbers. Part 1 classes are numbe
 Part 3 classes can be combined into larger classes for classification: using a screwdriver (original classes 2 and 3), using a ring spanner (box wrench) (original classes 4 and 5), using a hex key (original classes 6 and 7), using a clamp (original classes 8 and 9), and cutting with a hacksaw (original classes 11 and 12).
 </br></br>
 
+The format of .pkl data set files is described in the relevant sections.
+
 ## Code
 The <i>Сode</i> directory contains Python code for unzipping the dataset archives. Simply run <i>extract_all.py</i> from the <i>Code</i> directory to unzip the .pkl files for all parts of the dataset.
 The <i>read_dataset.py</i> file contains code for reading different parts of the dataset and generating training and test samples. You can run it to obtain some statistics for different parts of the dataset. Use it as a starting point for experimentation.
